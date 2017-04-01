@@ -1,0 +1,188 @@
+body.html{
+    width: 100%;
+    height: 100%;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*头部*/
+.mainTop{
+    position: relative;
+}
+.top{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid #d7d7d7;
+    background-color: #323333;
+}
+.topLeft{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 34px;
+    top: 12px;
+    background: url("../image/icon.png") no-repeat -100px -50px;
+}
+.topLeft:hover{
+    background: url("../image/icon.png") no-repeat -150px -50px;
+}
+.topCen{
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    left: 50%;
+    top: 7px;
+    background: url("../image/icon.png") no-repeat -100px -450px ;
+}
+
+/*主体*/
+.main{
+    position: relative;
+}
+.main1{
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+}
+.mainLeft{
+    float: left;
+    width: 30%;
+    height: 450px;
+    margin:0 7% ;
+}
+.mainLeft img{
+    width: 100%;
+    border: 1px solid #a6a6a6;
+}
+.mainLeft h3{
+    font-weight: normal;
+}
+.mainLeft h3 span{
+    float: right;
+}
+.mainRight{
+    float: left;
+    width: 30%;
+    height: 450px;
+    padding-left: 10%;
+    border-left: 1px solid #a6a6a6;
+}
+.mainRight h3{
+    font-weight: normal;
+    border-bottom: 1px solid #a6a6a6;
+}
+.mainRight form{
+    position: relative;
+}
+.mainRight form .username,.pwd{
+    width: 80%;
+    height: 60px;
+    border: 1px solid #a6a6a6;
+    padding-left: 10%;
+    margin-top: 5%;
+}
+.yonghu{
+    position: absolute;
+    left: 2%;
+    top: 15%;
+    width: 23px;
+    height: 26px;
+    background: url("../image/icon.png") no-repeat 0 -350px;
+}
+.mima{
+    position: absolute;
+    left: 2%;
+    top: 49%;
+    width: 24px;
+    height: 28px;
+    background: url("../image/icon.png") no-repeat -50px -350px;
+}
+.denglu{
+    width: 90%;
+    height: 60px;
+    border: none;
+    color: #fff;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 16px;
+    background: #101010;
+}
+.dengXia{
+    width: 90%;
+    margin-top: 5%;
+}
+.xiaLeft{
+    float: left;
+}
+.xiaRight{
+    float: right;
+}
+.xiaRight a{
+    color: #000100;
+}
+.xiaRight .zhuce{
+    color: #ff8800;
+}
+.dengBtm{
+    width: 100%;
+    clear: both;
+    margin-top: 20%;
+    padding-top: 5%;
+    border-top: 1px dashed #a6a6a6;
+}
+.btmLeft{
+    float: left;
+    width: 40%;
+}
+.btmRight{
+    float: right;
+    width: 35%;
+}
+.btmRight .weixin{
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    background: url("../image/icon.png")no-repeat -100px -500px;
+}
+.btmRight .weixin:hover{
+    background: url("../image/icon.png")no-repeat -150px -500px;
+}
+.btmRight .qq{
+     display: inline-block;
+     width: 29px;
+     height: 29px;
+     background: url("../image/icon.png")no-repeat -100px -550px;
+ }
+.btmRight .qq:hover{
+    background: url("../image/icon.png")no-repeat -150px -550px;
+}
+.btmRight .weibo{
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    background: url("../image/icon.png")no-repeat -100px -600px;
+}
+.btmRight .weibo:hover{
+    background: url("../image/icon.png")no-repeat -150px -600px;
+}
+
+
+
+
+
+

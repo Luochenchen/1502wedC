@@ -1,0 +1,196 @@
+body.html{
+    width: 100%;
+    height: 100%;
+}
+ul,li,img,a,span,p,h2,h3,div{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*头部*/
+.mainTop{
+    position: relative;
+}
+.top{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid #d7d7d7;
+    background-color: #323333;
+}
+.topAn{
+    position: absolute;
+    left: 0;
+    top: 45px;
+    width: 10%;
+    text-align: center;
+    background: #000100;
+    z-index: 999;
+    display: none;
+}
+.topAn li{
+    height: 35px;
+}
+.topAn li a{
+    color: #fff;
+}
+.topLeft{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 34px;
+    top: 12px;
+    background: url("../image/icon.png") no-repeat ;
+}
+.topLeft:hover{
+    background: url("../image/icon.png") no-repeat -50px 0;
+}
+.topCen{
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    left: 50%;
+    top: 7px;
+    color: #fff;
+}
+.topRight{
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.topRight a{
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    margin: 0 20px;
+}
+.topRight .right2{
+    background: url("../image/icon.png") no-repeat 0 -100px;
+}
+.right2:hover{
+    background: url("../image/icon.png") no-repeat -50px -100px;
+}
+.topRight .right3{
+    background: url("../image/icon.png") no-repeat -100px -100px;
+}
+.right3:hover{
+    background: url("../image/icon.png") no-repeat -150px -100px;
+}
+
+/*导航*/
+.mainNav{
+    position: relative;
+}
+.nav{
+    width: 100%;
+    height: 55px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 45px;
+    border-bottom: 3px solid #a6a6a6;
+}
+.nav li a{
+    float: left;
+    width: 10%;
+    color: #000;
+    margin-left: 8%;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 55px;
+}
+.nav li a:hover{
+    border-bottom: 5px solid #000;
+}
+
+/* 主体*/
+.mian{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.mian1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 110px;
+    background: #007ccc;
+}
+.ctn{
+    display: inline-block;
+    width: 20%;
+    margin: 0 2%;
+}
+.ctnImg img{
+    width: 100%;
+}
+.ctnMia{
+    width: 100%;
+}
+.ctnLeft{
+    width: 10%;
+    height: 35px;
+    float: left;
+    background: url("../image/icon.png")no-repeat 8px -236px;
+}
+.ctnRight{
+    width: 60%;
+    height: 35px;
+    float: left;
+    margin-left: 10%;
+}
+.ctnRight h3{
+    font-size: 12px;
+    text-align: center;
+    font-weight: normal;
+}
+.ctnRight div{
+    width: 100%;
+}
+.ctnRight div i{
+    display: inline-block;
+    width: 54px;
+    height: 1px;
+    vertical-align: middle;
+    background: url(../image/icon.png) 0 -800px no-repeat;
+}
+.ctnRight div a{
+    display: inline-block;
+    color: #000100;
+    padding-left: 14px;
+    background: url("../image/icon.png") no-repeat -50px -246px;
+}
+
+.euram{
+    display: none;
+}
+
+.Japan{
+    display: none;
+}
+
+.retro{
+    display: none;
+}
+
+.party{
+    display: none;
+}
